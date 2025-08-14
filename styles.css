@@ -38,13 +38,12 @@ input,textarea{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,
 .primary{background:linear-gradient(90deg,#06b6d4,#4ade80);border:none;padding:12px;border-radius:10px;color:#06201b;font-weight:700;cursor:pointer}
 .site-footer{padding:18px 0;border-top:1px solid rgba(255,255,255,0.02);text-align:center;color:var(--muted)}
 
-#certificates ul li a {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+/* Responsive */
+@media (max-width:900px){
+  .hero-inner{flex-direction:column}
+  .nav{display:none}
+  .menu-toggle{display:block;background:transparent;border:none;color:var(--white);font-size:22px}
 }
-
 .skills-list {
   display: flex;
   flex-wrap: wrap;
