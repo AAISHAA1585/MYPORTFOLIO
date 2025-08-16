@@ -1,5 +1,5 @@
 
-New Portfolio scaffold
+New Portfolio scaffold.
 Files created:
 - index.html
 - styles.css
